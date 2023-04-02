@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import SwiftUI
 class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +40,15 @@ extension HomeViewController:UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(ContactsViewController(), animated: true)
         case 2:
             navigationController?.pushViewController(PinterestViewController(), animated: true)
+        case 3:
+                    let swiftUIView = ActiveCallView()
+                    let hostingController = UIHostingController(rootView: swiftUIView)
+                    
+                    // Customize hostingController if needed
+                    hostingController.modalPresentationStyle = .fullScreen
+                    
+                    present(hostingController, animated: true, completion: nil)
+                
         default:
             print("hi")
         }

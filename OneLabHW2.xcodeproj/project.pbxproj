@@ -20,6 +20,7 @@
 		18E8F3D129D95BF200CF8A11 /* CollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F3D029D95BF200CF8A11 /* CollectionLayout.swift */; };
 		18E8F3D329D95E9500CF8A11 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F3D229D95E9500CF8A11 /* PhotoModel.swift */; };
 		18E8F3D529D9621A00CF8A11 /* PhotoCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F3D429D9621A00CF8A11 /* PhotoCells.swift */; };
+		18E8F3D929D96DF000CF8A11 /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8F3D829D96DF000CF8A11 /* SwiftUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		18E8F3D029D95BF200CF8A11 /* CollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionLayout.swift; sourceTree = "<group>"; };
 		18E8F3D229D95E9500CF8A11 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		18E8F3D429D9621A00CF8A11 /* PhotoCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCells.swift; sourceTree = "<group>"; };
+		18E8F3D829D96DF000CF8A11 /* SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				18D5F5D729D88C3D0012D6A9 /* ScrollView */,
 				18D5F5D429D88C170012D6A9 /* Contacts */,
 				18E8F3CD29D95AF600CF8A11 /* Pinterest */,
+				18E8F3D729D96DD600CF8A11 /* SwiftUI */,
 				18A24BF329D8309F001105F0 /* Assets.xcassets */,
 				18A24BF529D8309F001105F0 /* LaunchScreen.storyboard */,
 				18A24BF829D8309F001105F0 /* Info.plist */,
@@ -125,6 +128,14 @@
 				18E8F3D429D9621A00CF8A11 /* PhotoCells.swift */,
 			);
 			path = Pinterest;
+			sourceTree = "<group>";
+		};
+		18E8F3D729D96DD600CF8A11 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				18E8F3D829D96DF000CF8A11 /* SwiftUIViewController.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				18A24BF229D8309E001105F0 /* OneLabHW2.xcdatamodeld in Sources */,
 				18E8F3D129D95BF200CF8A11 /* CollectionLayout.swift in Sources */,
 				18A24BEC29D8309E001105F0 /* ScrollViewController.swift in Sources */,
+				18E8F3D929D96DF000CF8A11 /* SwiftUIViewController.swift in Sources */,
 				18A24BE829D8309E001105F0 /* AppDelegate.swift in Sources */,
 				18A24BEA29D8309E001105F0 /* SceneDelegate.swift in Sources */,
 				18E8F3D529D9621A00CF8A11 /* PhotoCells.swift in Sources */,
